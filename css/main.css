@@ -1,3 +1,53 @@
+.body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
 .header{
-    
+    background-color: black;
+    color:white;
+    border: solid 3px red;
+}
+
+.main{
+}
+
+.blue-section{
+    border: solid 3px red; 
+    background-color: #1d75de;
+    background-image: url(../images/premium_dancer.png);
+    height: 70vh;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.white-section{
+    border: solid 3px red; 
+    background-color: white;
+}
+
+.footer{
+    border: solid 3px red; 
+    background-color: black;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+.header .link{
+    font-weight: bold;
+}
+
+.logo-spotify{
+    width: 200px;
+    display: inline-block;
+}
+.menu-item{
+    display: inline-block;
+    align-items: flex-end;
+
+}
+.menu{
+    background-color: green;
+    text-align: right;
+    max-width: fit-content; 
 }
