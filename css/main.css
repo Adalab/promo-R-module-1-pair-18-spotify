@@ -1,53 +1,99 @@
 .body {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+font-family: Roboto, Arial, Helvetica, sans-serif;
 }
-.header{
-    background-color: black;
-    color:white;
-    border: solid 3px red;
+.header {
+  background-color: black;
+  color: white;
+  border: solid 3px red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
 }
-
-.main{
+.image-menu {
+    height: 30px;
+    margin-right: 20px;
 }
-
-.blue-section{
-    border: solid 3px red; 
-    background-color: #1d75de;
-    background-image: url(../images/premium_dancer.png);
-    height: 70vh;
-    background-position: right bottom;
-    background-repeat: no-repeat;
+.main {
 }
 
-.white-section{
-    border: solid 3px red; 
-    background-color: white;
+.blue-section {
+  border: solid 3px red;
+  background-color: #1d75de;
+  /* background-image: url(../images/premium_dancer.png); */
+  height: 70vh;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: end;
 }
 
-.footer{
-    border: solid 3px red; 
-    background-color: black;
+.title-blue {
+    font-size: 50px;
+    font-weight: bolder;
+    width: 90%;
+    line-height: 60px;
 }
-
-.link{
-    text-decoration: none;
-    color: white;
-}
-.header .link{
-    font-weight: bold;
-}
-
-.logo-spotify{
-    width: 200px;
-    display: inline-block;
-}
-.menu-item{
-    display: inline-block;
-    align-items: flex-end;
+.subtitle-blue {
+    font-size: 28px;
+    font-weight: 500;
+    width: 90%;
+    word-spacing: 0.1px;
+    letter-spacing: 0.1px;
+    line-height: 40px;
 
 }
-.menu{
-    background-color: green;
-    text-align: right;
-    max-width: fit-content; 
+.button {
+  background-color: #27b65a;
+  color: white;
+  border: none;
+  width: 90%;
+  height: 40px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.conditions {
+  font-size: 13px;
+  font-weight: 400;
+  width: 90%;
+  margin-bottom: 30px;
+  line-height: 20px;
+}
+
+.white-section {
+  border: solid 3px red;
+  background-color: white;
+}
+
+.footer {
+  border: solid 3px red;
+  background-color: black;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+.header .link {
+  font-weight: bold;
+}
+
+.logo-spotify {
+  height: 30px;
+  display: inline-block;
+  margin-left: 20px;
+}
+.menu-item {
+  display: inline-block;
+  align-items: flex-end;
+}
+.menu {
+  text-align: right;
+  max-width: fit-content;
 }
